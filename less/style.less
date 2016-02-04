@@ -4,7 +4,8 @@
 
 /*@blue:#29c5e6;*/
 
-/*@import "header.less";*/
+@import "about.less";
+@import "contacts.less";
 
 /*@font-face {
   font-family: Oswald;
@@ -42,23 +43,7 @@ body {
 
 .page-nav {
     background: #a09f9f;
-    &__list {
-        padding: 4px 0;
-        list-style: none;  
-        display: inline-block;        
-        margin: 0;
-        /*&:not(:last-child) {
-            margin-bottom: 4px;
-        }*/
-    }
-    &__item {
-        display: inline-block;
-    }
-    &__link {
-        padding: 20px;
-        display: inline-block;
-        background: #eee;
-    }
+    margin-bottom: 40px;
     &__wrapper {
         .navbar {
             background: none;
@@ -135,6 +120,7 @@ body {
 }
 
 .page-footer {
+    margin-top: 40px;
     background: #eee;
     padding: 10px 0;
 }

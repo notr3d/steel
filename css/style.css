@@ -2,7 +2,10 @@
 @tablet: ~ "(min-width: 768px)";
 @desktop: ~ "(min-width: 1080)";*/
 /*@blue:#29c5e6;*/
-/*@import "header.less";*/
+.map {
+  height: 200px;
+  background: #eee;
+}
 /*@font-face {
   font-family: Oswald;
   src: url("font/Oswald/Oswald-Light.ttf");
@@ -30,23 +33,7 @@ body {
 }
 .page-nav {
   background: #a09f9f;
-}
-.page-nav__list {
-  padding: 4px 0;
-  list-style: none;
-  display: inline-block;
-  margin: 0;
-  /*&:not(:last-child) {
-            margin-bottom: 4px;
-        }*/
-}
-.page-nav__item {
-  display: inline-block;
-}
-.page-nav__link {
-  padding: 20px;
-  display: inline-block;
-  background: #eee;
+  margin-bottom: 40px;
 }
 .page-nav__wrapper .navbar {
   background: none;
@@ -112,6 +99,7 @@ body {
   padding: 5px 0;
 }
 .page-footer {
+  margin-top: 40px;
   background: #eee;
   padding: 10px 0;
 }
