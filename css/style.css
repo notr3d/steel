@@ -1,7 +1,14 @@
 /*@mobile: ~ "(max-width: 767px)";
 @tablet: ~ "(min-width: 768px)";
 @desktop: ~ "(min-width: 1080)";*/
-/*@blue:#29c5e6;*/
+/*.lcw() {
+  max-width:1080px;
+  margin: 0 auto;
+}*/
+/*@font-face {
+  font-family: Oswald;
+  src: url("font/Oswald/Oswald-Light.ttf");
+}*/
 .contacts textarea {
   resize: vertical;
 }
@@ -26,12 +33,13 @@
   background: #eee url(../img/prod-1.jpg) no-repeat center;
   display: inline-block;
 }
-/*@font-face {
-  font-family: Oswald;
-  src: url("font/Oswald/Oswald-Light.ttf");
-}*/
 body {
   margin: 0;
+}
+.fp-controlArrow {
+  background: url(../img/arrow.png);
+  width: 40px;
+  height: 80px;
 }
 .container-fluid {
   padding: 0;
@@ -42,7 +50,7 @@ body {
   color: #fff;
 }
 .slider__wrapper {
-  padding-top: 200px;
+  padding-top: 120px;
 }
 .slider__wrapper h2 {
   font-size: 50px;
@@ -60,10 +68,6 @@ body {
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.1);
 }
-/*.lcw() {
-  max-width:1080px;
-  margin: 0 auto;
-}*/
 .page-header {
   border: none;
 }
@@ -82,22 +86,40 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #f9f7f9;
+  background: #fff;
   z-index: 1;
+  padding: 10px 0;
 }
 .page-nav__wrapper .navbar {
   border: none;
   margin: 0;
 }
+.page-nav__wrapper .navbar a {
+  color: #000;
+  font-weight: bold;
+}
+.page-nav .navbar-nav {
+  margin-right: 50px;
+}
 .page-nav .navbar-brand {
   width: 80px;
   background: url(../img/page-logo.png) no-repeat center;
-  background-size: cover;
+  background-size: contain;
 }
-.main {
-  margin: 40px 0;
+.page-nav .navbar-toggle {
+  border: 1px solid #000;
+  border-radius: 0;
+  background: #000;
 }
-.main__right {
+.page-nav .navbar-toggle .icon-bar {
+  background-color: yellow;
+}
+.page-nav .dropdown-menu {
+  border: none;
+  background: #efedef;
+  border-radius: 0;
+}
+.index__right {
   border-left: 2px solid #eee;
 }
 .news__item {
@@ -133,9 +155,10 @@ body {
   padding: 5px 0;
 }
 .page-footer {
-  margin-top: 40px;
   background: #eee;
   padding: 10px 0;
+  position: fixed;
+  bottom: 0;
 }
 .info__item {
   margin-right: 10px;

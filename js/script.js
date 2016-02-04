@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         scrollBar:true,
         verticalCentered:false,
-        paddingTop:'0px',
+        fixedElements: '.page-nav',
         scrollingSpeed:500,
     });
     /*$('.slider').slick({
