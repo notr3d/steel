@@ -6,6 +6,7 @@
 
 @import "about.less";
 @import "contacts.less";
+@import "production.less";
 
 /*@font-face {
   font-family: Oswald;
@@ -14,6 +15,44 @@
 
 body {
   margin: 0;
+}
+
+.fp-controlArrow {
+//    border: none;
+//    width: 35px;
+//    height: 75px;
+//   background: url(../img/arrow.png) no-repeat center;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.slider {
+    &__slide {
+        background: #090814 url(../img/slide-1.jpg) no-repeat center;
+        background-size: contain;
+        color: #fff;
+    }
+    &__wrapper {
+        padding-top: 200px;
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        a {
+            font-size: 20px;
+            color: #fff;
+            display: inline-block;
+            padding: 5px 25px;
+            border: 1px solid #fff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+    }
 }
 
 /*.lcw() {
@@ -43,13 +82,21 @@ body {
 }
 
 .page-nav {
-    margin-bottom: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: #f9f7f9;
+    z-index: 1;
     &__wrapper {
         .navbar {
             border: none;
             margin: 0;
         }
+    }
+    .navbar-brand {
+        width: 80px;
+        background: url(../img/page-logo.png) no-repeat center;
+        background-size: cover;
     }
 }
 

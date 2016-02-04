@@ -1,3 +1,19 @@
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        scrollBar:true,
+        verticalCentered:false,
+        paddingTop:'0px',
+        scrollingSpeed:500,
+    });
+    /*$('.slider').slick({
+      autoplay:true,
+      autoplaySpeed:2000,
+      arrows:false,
+      draggable:false,
+      fade:true
+    });*/
+});
+
 var myCenter=new google.maps.LatLng(55.788945, 37.72926);
 
 function initialize(){
