@@ -32,33 +32,12 @@ body {
   height: 161px;
 }
 .page-nav {
-  background: #a09f9f;
   margin-bottom: 40px;
+  background: #f9f7f9;
 }
 .page-nav__wrapper .navbar {
-  background: none;
   border: none;
-}
-.page-nav__wrapper .navbar-toggle {
-  border-color: #ffd70c;
-}
-.page-nav__wrapper .navbar-toggle .icon-bar {
-  background: #ffd70c;
-}
-.page-nav__wrapper .navbar-inverse .navbar-collapse {
-  border: none;
-}
-.page-nav__wrapper .navbar-inverse .navbar-brand {
-  color: #fff;
-}
-.page-nav__wrapper .navbar-inverse .navbar-nav > li.active > a {
-  color: #ffd70c;
-}
-.page-nav__wrapper .navbar-inverse .navbar-nav > li > a {
-  color: #fff;
-}
-.page-nav__wrapper .navbar-inverse .navbar-nav > .active > a {
-  background: none;
+  margin: 0;
 }
 .main {
   margin: 40px 0;
