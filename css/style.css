@@ -14,15 +14,19 @@ body {
   max-width:1080px;
   margin: 0 auto;
 }*/
-.page-logo {
-  background: #eee;
-  min-height: 50px;
+.page-header {
+  border: none;
+}
+.page-logo img {
+  display: block;
+  margin: 0 auto;
 }
 .page-heading {
   text-align: center;
 }
 .page-info {
   text-align: right;
+  height: 161px;
 }
 .page-nav {
   background: #a09f9f;
@@ -40,13 +44,28 @@ body {
   display: inline-block;
 }
 .page-nav__link {
-  padding: 10px 20px;
+  padding: 20px;
   display: inline-block;
   background: #eee;
 }
 .page-nav__wrapper .navbar {
   background: none;
   border: none;
+}
+.page-nav__wrapper .navbar-toggle {
+  border-color: #ffd70c;
+}
+.page-nav__wrapper .navbar-toggle .icon-bar {
+  background: #ffd70c;
+}
+.page-nav__wrapper .navbar-inverse .navbar-collapse {
+  border: none;
+}
+.page-nav__wrapper .navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.page-nav__wrapper .navbar-inverse .navbar-nav > li.active > a {
+  color: #ffd70c;
 }
 .page-nav__wrapper .navbar-inverse .navbar-nav > li > a {
   color: #fff;
@@ -79,7 +98,7 @@ body {
   width: 100%;
   min-height: 150px;
   background: #eee;
-  border: 10px solid #ece1af;
+  border: 10px solid rgba(255, 215, 12, 0.5);
   box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
   margin-bottom: 10px;
 }
