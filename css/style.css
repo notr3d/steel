@@ -2,6 +2,9 @@
 @tablet: ~ "(min-width: 768px)";
 @desktop: ~ "(min-width: 1080)";*/
 /*@blue:#29c5e6;*/
+.contacts textarea {
+  resize: vertical;
+}
 .map {
   height: 200px;
   background: #eee;
