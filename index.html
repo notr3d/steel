@@ -6,57 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>steel</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="page-header container-fluid">
-       <div class="page-header__wrapper container">
-            <a href="#" class="page-logo col-sm-3">
-                <img src="../img/page-logo.png" alt="">
-            </a>
-            <h1 class="page-heading col-sm-6">Total Solution Provider</h1>
-            <div class="page-info col-sm-3">
-                <div>lorem</div>
-                <div>lorem</div>
-                <div>lorem</div>
-            </div>   
-        </div>             
-    </header>
-  <div class="page-nav container-fluid">
-     <div class="page-nav__wrapper container">
-         <nav class="navbar navbar-inverse">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#page-nav">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span> 
-                  </button>
-                  <a class="navbar-brand" href="#">steel</a>
+    <div class="page-nav container-fluid">
+        <div class="page-nav__wrapper container">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#page-nav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="page-nav">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Главная</a></li>
+                            <li><a href="about.html">О компании</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="buildings.html">Buildings</a></li>
+                                    <li><a href="roofs.html">Roof and wall panels</a></li>
+                                    <li><a href="decks.html">Steel decks</a></li>
+                                    <li><a href="rnd.html">Research and Development</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="page-nav">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Главная</a></li>
-                    <li><a href="2.html">О компании</a></li>
-                   <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Контакты</a></li> 
-                  </ul>
-                </div>
-              </div>
             </nav>
-      </div>
-  </div>
+        </div>
+    </div>
     <div class="main container-fluid">
-        <div class="main__wrapper container">
-            <div class="main__left col-sm-6">
+        <div class="main__wrapper" id="fullpage">
+            <div class="section slider">
+                <div class="slide slider__slide">
+                    <div class="container slider__wrapper">                  
+                        <h2>Marketing Solutions</h2>
+                        <p>Create differentiated technology and products from the customer's perspective.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
+                <div class="slide slider__slide">
+                    <div class="container slider__wrapper">                  
+                        <h2>Marketing Solutions</h2>
+                        <p>Create differentiated technology and products from the customer's perspective.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
+                <div class="slide slider__slide">
+                    <div class="container slider__wrapper">                  
+                        <h2>Marketing Solutions</h2>
+                        <p>Create differentiated technology and products from the customer's perspective.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>                
+            </div>
+            <div class="section production">
+                <div class="container production__wrapper">
+                    <h2>Innovative Technology</h2>
+                    <p>Development of innovative products and realize Improve customer value through achieve solutions marketing.</p>
+                    <div class="production__container">
+                        <div class="production__item"></div>
+                        <div class="production__item"></div>
+                        <div class="production__item"></div>
+                    </div>
+                </div>    
+            </div>
+            <div class="section">Some section</div>
+            <div class="section">                
+                <footer class="page-footer container-fluid">
+                    <div class="page-footer__wrapper container">
+                        <div class="info">
+                            <span class="info__item">
+                                <a href="#">privacy policy</a>
+                            </span>
+                            <span class="info__item">
+                                tel 8-555-555-55-55
+                            </span>
+                            <span class="info__item">
+                                fax 8-555-555-55-55 
+                            </span>
+                            <span class="info__item">
+                                <a href="#">user@mail.com</a>    
+                            </span>
+                            <span class="info__item">
+                                 Copyright © 2016
+                            </span>
+                            <span class="info__item">
+                                 lorem
+                            </span>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!--<div class="main__left col-sm-6">
                 <div class="news">
                     <h2 class="news__heading">News</h2>
                     <div class="news__item">
@@ -91,7 +140,6 @@
                         <div class="news__date">Sunday, January 31, 2016</div>
                         <a href="" class="news__header">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
                     </div>
-                    
                 </div>
             </div>
             <div class="main__right col-sm-6">
@@ -111,36 +159,14 @@
                     <a href="#" class="galery__item col-xs-12 col-md-6">
                         <img src="../img/page-logo.png" alt="" class="galery__img">
                         <h3 class="galery__header">lorem</h3>
-                    </a>                    
+                    </a>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
-    <footer class="page-footer container-fluid">
-       <div class="page-footer__wrapper container">
-            <div class="info">
-                <span class="info__item">
-                    <a href="#">privacy policy</a>
-                </span>
-                <span class="info__item">
-                    tel 8-555-555-55-55
-                </span>
-                <span class="info__item">
-                    fax 8-555-555-55-55 
-                </span>
-                <span class="info__item">
-                    <a href="#">user@mail.com</a>    
-                </span>
-                <span class="info__item">
-                     Copyright © 2016
-                </span>
-                <span class="info__item">
-                     lorem
-                </span>
-            </div>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

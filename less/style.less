@@ -4,7 +4,9 @@
 
 /*@blue:#29c5e6;*/
 
-/*@import "header.less";*/
+@import "about.less";
+@import "contacts.less";
+@import "production.less";
 
 /*@font-face {
   font-family: Oswald;
@@ -13,6 +15,44 @@
 
 body {
   margin: 0;
+}
+
+.fp-controlArrow {
+//    border: none;
+//    width: 35px;
+//    height: 75px;
+//   background: url(../img/arrow.png) no-repeat center;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.slider {
+    &__slide {
+        background: #090814 url(../img/slide-1.jpg) no-repeat center;
+        background-size: contain;
+        color: #fff;
+    }
+    &__wrapper {
+        padding-top: 200px;
+        h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        a {
+            font-size: 20px;
+            color: #fff;
+            display: inline-block;
+            padding: 5px 25px;
+            border: 1px solid #fff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+    }
 }
 
 /*.lcw() {
@@ -38,55 +78,25 @@ body {
 .page-info {
     text-align: right;
     height: 161px;
+    
 }
 
 .page-nav {
-    background: #a09f9f;
-    &__list {
-        padding: 4px 0;
-        list-style: none;  
-        display: inline-block;        
-        margin: 0;
-        /*&:not(:last-child) {
-            margin-bottom: 4px;
-        }*/
-    }
-    &__item {
-        display: inline-block;
-    }
-    &__link {
-        padding: 20px;
-        display: inline-block;
-        background: #eee;
-    }
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #f9f7f9;
+    z-index: 1;
     &__wrapper {
         .navbar {
-            background: none;
             border: none;
-            &-toggle {
-                border-color: #ffd70c;
-                .icon-bar {
-                    background: #ffd70c;
-                }
-            }
-            &-inverse {
-                .navbar-collapse {
-                    border: none;
-                }
-                .navbar-brand {
-                    color: #fff;
-                }
-                .navbar-nav>li.active>a {
-                    color: #ffd70c;
-                }
-                .navbar-nav>li>a {
-                    color: #fff;
-                }
-                .navbar-nav>.active>a {
-                    background: none;
-                }
-            }
+            margin: 0;
         }
+    }
+    .navbar-brand {
+        width: 80px;
+        background: url(../img/page-logo.png) no-repeat center;
+        background-size: cover;
     }
 }
 
@@ -135,6 +145,7 @@ body {
 }
 
 .page-footer {
+    margin-top: 40px;
     background: #eee;
     padding: 10px 0;
 }
