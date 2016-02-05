@@ -7,31 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>steel</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet"> </head>
-
+    <link href="css/style.css" rel="stylesheet"> 
+</head>
 <body>
-    <header class="page-header container-fluid">
-        <div class="page-header__wrapper container">
-            <a href="#" class="page-logo col-sm-3"> <img src="../img/page-logo.png" alt=""> </a>
-            <h1 class="page-heading col-sm-6">Total Solution Provider</h1>
-            <div class="page-info col-sm-3">
-                <div>tel</div>
-                <div>email</div>
-                <div>address</div>
-            </div>
-        </div>
-    </header>
-    <div class="page-nav container-fluid">
-        <div class="page-nav__wrapper container">
-            <nav class="navbar navbar-default">
+    <header class="container-fluid page-nav">
+        <div class="container page-nav__wrapper">
+            <nav class="navbar">
                 <div class="container-fluid">
-                    <div class="navbar-header hidden-sm hidden-md hidden-lg">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#page-nav"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">steel</a> </div>
-                    <div class="collapse navbar-collapse" id="page-nav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#page-nav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+                    <div id="page-nav" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.html">Главная</a></li>
-                            <li><a href="about.html">О компании</a></li>
-                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция<span class="caret"></span></a>
+                            <li class="active"><a href="index.html" class="page-nav__link">Главная</a></li>
+                            <li><a href="about.html" class="page-nav__link">О компании</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle page-nav__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="buildings.html">Buildings</a></li>
                                     <li><a href="roofs.html">Roof and wall panels</a></li>
@@ -39,51 +35,21 @@
                                     <li><a href="rnd.html">Research and Development</a></li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="contacts.html">Контакты</a></li>
+                            <li><a href="contacts.html" class="page-nav__link">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
-    </div>
-    <div class="contacts container-fluid">
-        <div class="contacts__wrapper container">
-            <h2 class="contacts__heading">Контакты</h2>
-            <div class="contacts__left col-sm-6">
-                <p class="contacts__note">Zamil Steel's corporate headquarter is in Dammam, Saudi Arabia, and has fabrication facilities and R&D centers in Saudi Arabia, Egypt and Vietnam. Zamil Steel's sales and marketing offices are distributed in 60 locations around the world. Below are the address details of Zamil Steel's corporate headquarters and divisions.</p>
-                <div class="row">          
-                    <h3>Corporate Headquarters</h3>
-                    <address class="col-xs-6">
-                        Zamil Steel Holding Co. Ltd.</br>
-                        1st Industrial City,</br>
-                        PO Box 877, Dammam 31421</br>
-                        <strong>Saudi Arabia</strong>
-                    </address>
-                    <address class="col-xs-6">
-                        Phone +966 (13) 847 1840</br>
-                        Fax +966 (13) 847 1291</br>
-                        <a href="mailto:mail@sendmail.com">mail@sendmail.com</a>
-                    </address>
-                </div>
-                <div class="row"> 
-                    <h3>Head Office</h3>
-                    <address class="col-xs-6">
-                        Zamil Steel Holding Co. Ltd.</br>
-                        1st Industrial City,</br>
-                        PO Box 877, Dammam 31421</br>
-                        <strong>Saudi Arabia</strong>
-                    </address>
-                    <address class="col-xs-6">
-                        Phone +966 (13) 847 1840</br>
-                        Fax +966 (13) 847 1291</br>
-                        <a href="mailto:mail@sendmail.com">mail@sendmail.com</a>
-                    </address>  
-                </div>                             
-            </div> 
-            <div class="contacts__right col-sm-6">
-                <div class="map" id="map"></div>
-                <form>
-                    <h3>Связаться с нами</h3>
+    </header>
+    <div class="container-fluid contacts">
+        <div class="container contacts__wrapper">
+           <div class="container contacts__heading">                        
+                <h1>Contacts us</h1>
+                <p class="col-sm-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas autem corporis labore earum accusamus nesciunt, eius mollitia eveniet! Dolor at harum odit sit, perferendis obcaecati dolorum ratione accusamus cupiditate.</p>         
+           </div>           
+           <div class="col-sm-6 contacts__left">                
+                <form class="contacts__form">
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" placeholder="Ваше имя*">
                     </div>
@@ -91,13 +57,42 @@
                         <input type="email" class="form-control" id="email" placeholder="Ваш email*">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="3" placeholder="Ваше сообщение"></textarea>
+                        <textarea class="form-control" rows="3" placeholder="Ваше сообщение..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-default">Отправить</button>
                 </form>
-            </div>           
+           </div> 
+           <div class="col-sm-6 contacts__right">
+               <div class="row">
+                   <address class="col-sm-6">
+                        Zamil Steel Holding Co. Ltd.</br>
+                        1st Industrial City,</br>
+                        PO Box 877, Dammam 31421</br>
+                        <strong>Saudi Arabia</strong>
+                    </address>
+                    <address class="col-sm-6">
+                        Phone +966 (13) 847 1840</br>
+                        Fax +966 (13) 847 1291</br>
+                        <a href="mailto:mail@sendmail.com">mail@sendmail.com</a>
+                    </address>    
+               </div>
+               <div class="row">
+                   <address class="col-sm-6">
+                        Zamil Steel Holding Co. Ltd.</br>
+                        1st Industrial City,</br>
+                        PO Box 877, Dammam 31421</br>
+                        <strong>Saudi Arabia</strong>
+                    </address>
+                    <address class="col-sm-6">
+                        Phone +966 (13) 847 1840</br>
+                        Fax +966 (13) 847 1291</br>
+                        <a href="mailto:mail@sendmail.com">mail@sendmail.com</a>
+                    </address>    
+               </div>                                          
+            </div>
         </div>
-    </div>
+    </div>        
+    <div class="map" id="map"></div>
     <footer class="page-footer container-fluid">
         <div class="page-footer__wrapper container">
             <div class="info"> 
@@ -126,5 +121,4 @@
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <script src="js/script.js"></script>
 </body>
-
 </html>

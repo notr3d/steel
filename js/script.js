@@ -4,14 +4,14 @@ $(document).ready(function() {
         verticalCentered:false,
         fixedElements: '.page-nav',
         navigation:true,
-        //slidesNavigation:true,
-        navigationTooltips: ['firstSlide', 'production', 'thirdSlide'],
-        scrollingSpeed:400,
-        afterRender:function(){
-            slideTimeout = setInterval(function(){
-                $.fn.fullpage.moveSlideRight();
-            }, 5000);
-        },
+        slidesNavigation:true,
+        //navigationTooltips: ['firstSlide', 'production', 'thirdSlide'],
+        scrollingSpeed:500,
+//        afterRender:function(){
+//            slideTimeout = setInterval(function(){
+//                $.fn.fullpage.moveSlideRight();
+//            }, 10000);
+//        },
     });
     /*$('.slider').slick({
       autoplay:true,

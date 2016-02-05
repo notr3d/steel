@@ -67,7 +67,7 @@ html.fp-enabled,
     -ms-user-select: none; /* IE10+ */
     position: absolute;
     z-index: 4;
-    top: 50%;
+/*    top: 50%;*/
     cursor: pointer;
     width: 0;
     height: 0;
@@ -77,21 +77,34 @@ html.fp-enabled,
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
     
+    height: 100%;
+    width: 50px;
+    top: 0;
+    border: none;
+    
 }
 .fp-controlArrow.fp-prev {
     left: 15px;
-    width: 0;
+/*    width: 0;*/
 /*    border-width: 38.5px 34px 38.5px 0;*/
+    
+/*
     border-width: 20px 20px 20px 0;
     border-color: transparent #fff transparent transparent;
-    
+*/
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), transparent);
+    left: 0;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     /*border-width: 38.5px 0 38.5px 34px;*/
+    
+/*
     border-width: 20px 0 20px 20px;
     border-color: transparent transparent transparent #fff;
-   
+*/
+   background: linear-gradient(to left, rgba(0, 0, 0, 0.75), transparent);
+    right: 0;
 }
 .fp-scrollable {
     overflow: scroll;
