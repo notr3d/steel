@@ -36,11 +36,6 @@
 body {
   margin: 0;
 }
-.fp-controlArrow {
-  background: url(../img/arrow.png);
-  width: 40px;
-  height: 80px;
-}
 .container-fluid {
   padding: 0;
 }
