@@ -3,6 +3,9 @@ $(document).ready(function() {
         scrollBar:true,
         verticalCentered:false,
         fixedElements: '.page-nav',
+        navigation:true,
+        slidesNavigation:true,
+        navigationTooltips: ['firstSlide', 'production', 'thirdSlide'],
         scrollingSpeed:500,
     });
     /*$('.slider').slick({
