@@ -366,6 +366,10 @@
 .catalog__wrapper {
   margin-top: 80px;
 }
+.product__wrapper {
+  margin-top: 80px;
+  min-height: 1000px;
+}
 body {
   margin: 0;
   position: relative;
