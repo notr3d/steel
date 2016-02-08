@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="container-fluid page-nav">
@@ -29,6 +31,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle page-nav__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
+                                    <li><a href="catalog.html">Каталог</a></li>
                                     <li><a href="buildings.html">Buildings</a></li>
                                     <li><a href="roofs.html">Roof and wall panels</a></li>
                                     <li><a href="decks.html">Steel decks</a></li>
@@ -120,38 +123,137 @@
                    </div>
                     <div class="container production__container">
                         <div class="col-md-4 production__item">
-                            <div>
-                            <div class="production__mask">
-                                <h3>Hot-rolled Steel</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
-                            </div>
-                            <a href="#" class="production__link">
-                                <img src="img/prod-1.jpg" alt="" width="310" height="290">
-                            </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 production__item">
-                            <div>
-                            <div class="production__mask">
-                                <h3>Steel Plates</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
-                            </div>
-                            <a href="#" class="production__link">
-                                <img src="img/prod-2.jpg" alt="" width="310" height="290">
-                            </a>
+                            <div class="production__inner">
+                                <div class="production__mask">
+                                    <h3>Hot-rolled Steel</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
+                                </div>
+                                <a href="#" class="production__link">
+                                    <img src="img/production/1.jpg" alt="" width="310" height="290">
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-4 production__item">
-                            <div>
-                            <div class="production__mask">
-                                <h3>Wire Rod</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
+                            <div class="production__inner">
+                                <div class="production__mask">
+                                    <h3>Steel Plates</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
+                                </div>
+                                <a href="#" class="production__link">
+                                    <img src="img/production/2.jpg" alt="" width="310" height="290">
+                                </a>
                             </div>
-                            <a href="#" class="production__link">
-                                <img src="img/prod-3.jpg" alt="" width="310" height="290">
-                            </a>
+                        </div>
+                        <div class="col-md-4 production__item">
+                            <div class="production__inner">
+                                <div class="production__mask">
+                                    <h3>Wire Rod</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
+                                </div>
+                                <a href="#" class="production__link">
+                                    <img src="img/production/3.jpg" alt="" width="310" height="290">
+                                </a>
                             </div>
                         </div>                        
+                    </div>
+                    <div class="partners">
+                        <div class="partners__wrapper">
+                            <div class="partners__heading">
+                                <h2>Our partners</h2>                       
+                            </div>
+                            <div class="partners__container">
+                                <div class="partners__item">
+                                    <img src="img/partners/1.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/2.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/3.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/4.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/5.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/6.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/7.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/8.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/9.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/10.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/11.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/12.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/13.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/14.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                                <div class="partners__item">
+                                    <img src="img/partners/15.png" alt="">
+                                    <div class="partners__mask">
+                                        <h3>lorem</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>                                 
                 <footer class="page-footer container-fluid">
@@ -238,9 +340,10 @@
             </div>-->
         </div>
     </div>
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/slick.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
