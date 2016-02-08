@@ -3,6 +3,15 @@
         margin-top: 80px;
         min-height: 1000px;
     }
+    &__heading {
+        h1 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            background: url(../img/1/heading-bg.gif) no-repeat 100%;
+            background-size: contain;
+        }
+    }
     &__inner {
         margin-top: 20px;
         border: 1px solid #ddd;
@@ -25,6 +34,16 @@
                     left: -15px;
                     top: 50%;
                 }
+            }
+        }
+        table {
+            border-top: 2px solid @blue;
+            th {
+                text-align: center;
+                border-bottom: 2px solid #aaa !important;
+            }
+            td {
+                text-align: center;
             }
         }
     }
