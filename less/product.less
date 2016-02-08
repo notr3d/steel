@@ -3,4 +3,29 @@
         margin-top: 80px;
         min-height: 1000px;
     }
+    &__inner {
+        margin-top: 20px;
+        border: 1px solid #ddd;
+        padding: 20px;
+        h2 {
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            margin-bottom: 0;
+            li {
+                position: relative;
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 8px;
+                    height: 2px;
+                    background: @blue;
+                    position: absolute;
+                    left: -15px;
+                    top: 50%;
+                }
+            }
+        }
+    }
 }

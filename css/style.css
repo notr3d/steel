@@ -370,6 +370,31 @@
   margin-top: 80px;
   min-height: 1000px;
 }
+.product__inner {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.product__inner h2 {
+  margin-top: 0;
+}
+.product__inner ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+.product__inner ul li {
+  position: relative;
+}
+.product__inner ul li::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 2px;
+  background: #3071c2;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+}
 body {
   margin: 0;
   position: relative;
