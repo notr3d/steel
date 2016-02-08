@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $('.scrollup').click(function(){
+        $('body').animate({scrollTop: 0}, 300);
+        return false;
+    });
     $('#fullpage').fullpage({
         scrollBar:true,
         verticalCentered:false,
