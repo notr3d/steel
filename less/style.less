@@ -24,6 +24,7 @@
 @import "partners.less";
 @import "catalog.less";
 @import "product.less";
+@import "page-footer.less";
 
 body {
     margin: 0;
@@ -42,24 +43,25 @@ body {
     background: none;
     outline: none;
     position: relative;
-    opacity: .75;
-    transition: all .3s;
     &::before {
         content: '';
         display: block;
         width: 20px;
         height: 20px;
-        border-left: 5px solid #fff;
-        border-top: 5px solid #fff;
+        border-left: 5px solid rgba(127, 127, 127, 0.8);
+        border-top: 5px solid rgba(127, 127, 127, 0.8);
         position: absolute;
         top: 50%;
         left: 50%;
         margin-left: -10px;
         margin-top: -10px;
-        transform:rotate(45deg);
+        transform:rotate(45deg);        
+        transition: all .3s;
     }
     &:hover {
-        opacity: 1;
+        &::before {
+            border-color: rgba(127, 127, 127, 1);
+        }
     }
 }
 
@@ -166,27 +168,5 @@ body {
         font-size: 20px;
         letter-spacing: 1px;
         padding: 5px 0;
-    }
-}
-
-.page-footer {
-    background: #000;
-    padding: 15px 0;
-    width: 100%;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-}
-
-.info {
-    &__item {
-        margin-right: 10px;
-        &:not(:last-child) {
-            &::after {
-                content: '|';
-                position: relative;
-                margin-left: 10px;
-            }
-        }
     }
 }

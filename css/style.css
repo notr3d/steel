@@ -100,7 +100,7 @@
   background: #3071c2;
 }
 .map {
-  height: 500px;
+  height: 400px;
 }
 .production {
   background: url(../img/prod-bg.jpg) no-repeat center;
@@ -409,6 +409,52 @@
 .product__inner table td {
   text-align: center;
 }
+.page-footer {
+  width: 100%;
+}
+.info {
+  padding: 15px 0;
+  background: #000;
+}
+.info__item {
+  margin-right: 10px;
+}
+.info__item:not(:last-of-type)::after {
+  content: '|';
+  position: relative;
+  margin-left: 10px;
+  color: rgba(127, 127, 127, 0.8);
+}
+.info__item a {
+  color: rgba(127, 127, 127, 0.8);
+  transition: all .3s;
+}
+.info__item:hover a {
+  color: #7f7f7f;
+}
+.copy {
+  background: #e7e5e7;
+  padding: 30px 0px;
+}
+.copy__item {
+  margin-right: 10px;
+}
+.copy__item:not(:last-of-type)::after {
+  content: '|';
+  position: relative;
+  margin-left: 10px;
+  color: rgba(127, 127, 127, 0.8);
+}
+.copy__item a {
+  color: rgba(34, 34, 34, 0.8);
+  transition: all .3s;
+}
+.copy__item:hover a {
+  color: #7f7f7f;
+}
+.copy__text {
+  margin-top: 20px;
+}
 body {
   margin: 0;
   position: relative;
@@ -424,25 +470,24 @@ body {
   background: none;
   outline: none;
   position: relative;
-  opacity: .75;
-  transition: all .3s;
 }
 .scrollup::before {
   content: '';
   display: block;
   width: 20px;
   height: 20px;
-  border-left: 5px solid #fff;
-  border-top: 5px solid #fff;
+  border-left: 5px solid rgba(127, 127, 127, 0.8);
+  border-top: 5px solid rgba(127, 127, 127, 0.8);
   position: absolute;
   top: 50%;
   left: 50%;
   margin-left: -10px;
   margin-top: -10px;
   transform: rotate(45deg);
+  transition: all .3s;
 }
-.scrollup:hover {
-  opacity: 1;
+.scrollup:hover::before {
+  border-color: #7f7f7f;
 }
 .footnote {
   position: absolute;
@@ -532,20 +577,4 @@ body {
   font-size: 20px;
   letter-spacing: 1px;
   padding: 5px 0;
-}
-.page-footer {
-  background: #000;
-  padding: 15px 0;
-  width: 100%;
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-}
-.info__item {
-  margin-right: 10px;
-}
-.info__item:not(:last-child)::after {
-  content: '|';
-  position: relative;
-  margin-left: 10px;
 }
