@@ -1,6 +1,6 @@
-/*@mobile: ~ "(max-width: 767px)";
+@mobile: ~ "(max-width: 640px)";
 @tablet: ~ "(min-width: 768px)";
-@desktop: ~ "(min-width: 1080)";*/
+@desktop: ~ "(min-width: 1080)";
 
 /*.lcw() {
   max-width:1080px;
@@ -103,6 +103,9 @@ body {
             font-size: 12px;
             line-height: 16px;
         }
+    }
+    @media @mobile {
+        display: none;
     }
 }
 

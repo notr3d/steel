@@ -7,10 +7,11 @@ $(document).ready(function() {
         scrollBar:true,
         verticalCentered:false,
         fixedElements: '.page-nav',
+        anchors: ['slider', 'production', 'page-footer'],
         navigation:true,
         slidesNavigation:true,
         scrollingSpeed:500,
-        responsiveWidth:768,
+        responsiveWidth:1000,
         afterRender:function(){
             slideTimeout = setInterval(function(){
                 $.fn.fullpage.moveSlideRight();
