@@ -99,16 +99,14 @@
 .map {
   height: 400px;
 }
-.production {
-  background: url(../img/prod-bg.jpg) no-repeat center;
+.production__wrapper {
+  background: url(../img/prod-bg.jpg) no-repeat 50% 100%;
   background-size: cover;
-  background-position: 50% 100%;
 }
 .production__heading {
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 5px;
-  margin-bottom: 50px;
+  padding-top: 60px;
+  margin-bottom: 40px;
 }
 .production__heading::before {
   content: '';
@@ -141,14 +139,14 @@
   margin-bottom: 20px;
   overflow: hidden;
 }
+.production__item img {
+  transition: all .3s;
+}
 .production__item:hover .production__mask {
   transform: translateY(0);
 }
 .production__item:hover img {
   transform: scale(1.1);
-}
-.production__item img {
-  transition: all .3s;
 }
 .production__inner {
   width: 310px;
