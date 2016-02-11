@@ -1,7 +1,7 @@
 .product {
     &__wrapper {
         margin-top: 80px;
-        min-height: 1000px;
+        min-height: 100vh;
     }
     &__heading {
         margin-bottom: 20px;
@@ -11,6 +11,23 @@
             margin-bottom: 20px;
             background: url(../img/1/heading-bg.gif) no-repeat 100%;
             background-size: contain;
+        }
+        ul {
+            list-style: none;
+            margin-bottom: 0;
+            li {
+                position: relative;
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 8px;
+                    height: 2px;
+                    background: @blue;
+                    position: absolute;
+                    left: -15px;
+                    top: 50%;
+                }
+            }
         }
     }
     &__inner {

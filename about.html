@@ -7,9 +7,10 @@
     <title>steel</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet"> 
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <header class=" page-nav">
+    <header class="page-nav">
         <div class="container page-nav__wrapper">
             <nav class="container navbar">
                 <div class="container-fluid">
@@ -43,7 +44,7 @@
     <div class="container-fluid about">
         <div class="container about__wrapper">
            <div class="container about__heading">                        
-                <h1 class="col-xs-12">About us</h1>.</p>         
+                <h1 class="col-xs-12">About us</h1>         
            </div>  
            <div class="container about__note">
                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
@@ -52,7 +53,7 @@
            <div class="container about__item">
               <div class="col-sm-6 about__left">            
                   <figure>                      
-                      <img src="img/about/1.jpg" alt="" class="">
+                      <img src="img/about/1.jpg" alt="" class="intense">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -71,7 +72,7 @@
               </div>
               <div class="col-sm-6 about__right">
                   <figure>                      
-                      <img src="img/about/2.jpg" alt="" class="">
+                      <img src="img/about/2.jpg" alt="" class="intense">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -82,7 +83,7 @@
            <div class="container about__item">
               <div class="col-sm-6 about__left">              
                   <figure>                      
-                      <img src="img/about/3.jpg" alt="" class="">
+                      <img src="img/about/3.jpg" alt="" class="intense">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -138,6 +139,13 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/intense.js"></script>
+    <script>
+        window.onload = function() {
+            var elements = document.querySelectorAll( '.intense' );
+            Intense( elements );
+        }
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

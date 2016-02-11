@@ -3,24 +3,30 @@
         margin-top: 80px;
     }
     &__heading {
-        margin-top: 20px;
+        margin: 20px 30px 40px;
+        border-bottom: 1px solid #ddd;
     }
     &__note {
+        margin: 0 30px;
         margin-bottom: 50px;
-        background: @blue;
+        background: rgba(48, 113, 194, 0.9);
         color: #fff;
         padding: 20px;
-        font-style: italic;
         border-radius: 5px;
         box-shadow: inset 0 0 25px 5px rgba(0, 0, 0, 0.25);
         h2 {
             margin: 0;
             margin-bottom: 10px;
         }
+        p {            
+            font-style: italic;
+            line-height: 20px;
+        }
     }
     &__item {
-        margin-bottom: 40px;
+        margin: 0 30px 30px;
         padding-bottom: 40px;
+        padding: 0;
         border: 0;
         &:not(:last-of-type) {            
             border-bottom: 10px;
@@ -33,13 +39,18 @@
         figure { 
             margin-bottom: 25px;
             position: relative;
+            overflow: hidden;
             img {                           
                 width: 100%;
+                cursor: url('../img/intense/plus_cursor.png') 25 25, auto;
             }
             figcaption {
                 position: absolute;
-                bottom: 0;
-                background: rgba(0, 0, 0, 0.5);
+                pointer-events: none;
+                bottom:0;
+                transform: translateY(36px);
+                background: rgba(0, 0, 0, 0.5);              
+                transition: all .3s;
                 width: 100%;
                 color: #fff;
                 padding: 5px 20px 10px;
@@ -62,6 +73,11 @@
                 p {
                     padding: 0;
                     margin: 0;
+                }
+            }
+            &:hover {
+                figcaption {
+                    transform: translateY(0);    
                 }
             }
         }
