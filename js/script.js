@@ -10,7 +10,7 @@ $(document).ready(function() {
         anchors: ['slider', 'production', 'page-footer'],
         navigation:true,
         slidesNavigation:true,
-			  scrollOverflow: true,
+			  //scrollOverflow: true,
         scrollingSpeed:500,
         responsiveWidth:1000,
         afterRender:function(){
