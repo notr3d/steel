@@ -1,6 +1,7 @@
 .slider {
     position: relative;
     overflow: hidden;
+    padding-top: 80px;
     &__slide {
         background: no-repeat center;
         background-size: cover;
@@ -17,12 +18,11 @@
     }
     &__wrapper {
         padding-top: 50px;
-        height: 100%;
         position: relative;
     }
     &__container {  
         position: absolute;
-        top: 40%;
+        top: 280px;
         transform: translateY(-40%);
     }
     &__header {
@@ -34,6 +34,9 @@
         padding: 5px 10px;
         margin-bottom: 0;
         letter-spacing: 2px;
+        @media @mobile {
+            font-size: 30px;
+        }
     }
     &__note {
         font-size: 25px;
@@ -42,6 +45,9 @@
         background: rgba(0, 0, 0, 0.33);
         padding: 5px 10px;
         margin-bottom: 20px;
+        @media @mobile {
+            font-size: 18px;
+        }
     }
     &__link {
         font-size: 20px;
@@ -71,6 +77,9 @@
         background: rgba(0, 0, 0, 0.33);
         padding: 5px 10px;
         line-height: 30px;
+        @media @mobile {
+            display: none;
+        }
     }
     .fp-slidesNav.bottom {
         bottom: 215px;
