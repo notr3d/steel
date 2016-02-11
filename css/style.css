@@ -240,9 +240,14 @@
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.1);
   transition: all .3s;
-  margin-bottom: 160px;
+  margin-bottom: 60px;
 }
 .slider__link:hover {
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+.slider__link:focus {
   color: #fff;
   text-decoration: none;
   background: rgba(255, 255, 255, 0.2);
@@ -253,7 +258,6 @@
   color: #fff;
   background: rgba(0, 0, 0, 0.33);
   padding: 5px 10px;
-  width: 60%;
 }
 .slider .fp-slidesNav.bottom {
   bottom: 215px;
@@ -287,15 +291,14 @@
   width: 70px;
   background: url(../img/page-logo.png) no-repeat center;
   background-size: contain;
-  margin-right: 30px;
+  margin: 0 45px 0 15px;
 }
 .page-nav .navbar-toggle {
-  border: 1px solid #000;
   border-radius: 0;
-  background: #000;
+  background: #3071c2;
 }
 .page-nav .navbar-toggle .icon-bar {
-  background-color: yellow;
+  background-color: #fff;
 }
 .page-nav .dropdown-menu {
   border: 1px solid #c8cbd1;
@@ -465,6 +468,7 @@
 }
 body {
   margin: 0;
+  background: #fffeff;
   position: relative;
 }
 .container-fluid {

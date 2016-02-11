@@ -12,7 +12,7 @@ $(document).ready(function() {
         slidesNavigation:true,
 			  //scrollOverflow: true,
         scrollingSpeed:500,
-        responsiveWidth:1000,
+        responsiveWidth:1280,
         afterRender:function(){
             slideTimeout = setInterval(function(){
                 $.fn.fullpage.moveSlideRight();
@@ -74,6 +74,7 @@ $(document).ready(function() {
     function initialize(){
         var mapProp = {
             center:myCenter,
+            scrollwheel:false,
             zoom:16,
             mapTypeId:google.maps.MapTypeId.ROADMAP
         };
