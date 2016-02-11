@@ -348,6 +348,7 @@
 .page-nav .dropdown-menu li a {
   background: rgba(255, 255, 255, 0.95);
   padding: 10px;
+  transition: all .3s;
 }
 .page-nav .dropdown-menu li a:hover {
   background: #3071c2;
@@ -359,6 +360,7 @@
   padding: 15px 0 !important;
   margin: 0 30px;
   background: none !important;
+  transition: all .3s;
 }
 .page-nav__link:hover {
   color: #3071c2;
