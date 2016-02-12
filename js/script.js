@@ -16,13 +16,13 @@ $(document).ready(function() {
         afterRender:function(){
             slideTimeout = setInterval(function(){
                 $.fn.fullpage.moveSlideRight();
-            }, 10000);
+            }, 15000);
         },
     });
     
     $('.partners__container').slick({
         autoplay:true,
-        autoplaySpeed:5000,
+        autoplaySpeed:10000,
         arrows:false,
         dots:false,
         slidesToShow:4,

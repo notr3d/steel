@@ -48,8 +48,7 @@
             figcaption {
                 position: absolute;
                 pointer-events: none;
-                bottom:0;
-                transform: translateY(36px);
+                top:100%;
                 background: rgba(0, 0, 0, 0.5);              
                 transition: all .3s;
                 width: 100%;
@@ -81,7 +80,8 @@
                     transform: scale(1.1);
                 }
                 figcaption {
-                    transform: translateY(0);    
+                    top:0;
+                    bottom: 0;
                 }
             }
         }

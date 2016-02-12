@@ -17,13 +17,10 @@
         text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.75);
     }
     &__wrapper {
-        padding-top: 50px;
         position: relative;
     }
-    &__container {  
-        position: absolute;
-        top: 280px;
-        transform: translateY(-40%);
+    &__container {
+        
     }
     &__header {
         font-size: 50px;
@@ -55,18 +52,18 @@
         display: inline-block;
         padding: 5px 25px;
         border: 1px solid #fff;
-        background: rgba(255, 255, 255, 0.1);                
+        background: rgba(48, 113, 194, 0.80);                
         transition: all .3s;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         &:hover {
             color: #fff;
             text-decoration: none;
-            background: rgba(255, 255, 255, 0.2);
+            background: @blue;
         }
         &:focus {
             color: #fff;
             text-decoration: none;
-            background: rgba(255, 255, 255, 0.2);
+            background: @blue;
         }
         
     }
@@ -78,7 +75,7 @@
         padding: 5px 10px;
         line-height: 30px;
         @media @mobile {
-            display: none;
+            font-size: 16px;
         }
     }
     .fp-slidesNav.bottom {

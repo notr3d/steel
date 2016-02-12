@@ -57,8 +57,7 @@
 .about__item figure figcaption {
   position: absolute;
   pointer-events: none;
-  bottom: 0;
-  transform: translateY(36px);
+  top: 100%;
   background: rgba(0, 0, 0, 0.5);
   transition: all .3s;
   width: 100%;
@@ -89,7 +88,8 @@
   transform: scale(1.1);
 }
 .about__item figure:hover figcaption {
-  transform: translateY(0);
+  top: 0;
+  bottom: 0;
 }
 .contacts {
   margin-bottom: 20px;
@@ -111,8 +111,10 @@
 }
 .contacts__form {
   margin-bottom: 20px;
+  border-radius: 5px;
   border: 1px solid #eee;
   padding: 20px 10px;
+  background: url(../img/bg-1.png);
 }
 .contacts__form__submit {
   background: #3071c2;
@@ -229,13 +231,7 @@
   background-image: url(../img/slider/3.jpg);
 }
 .slider__wrapper {
-  padding-top: 50px;
   position: relative;
-}
-.slider__container {
-  position: absolute;
-  top: 280px;
-  transform: translateY(-40%);
 }
 .slider__header {
   font-size: 50px;
@@ -271,19 +267,19 @@
   display: inline-block;
   padding: 5px 25px;
   border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(48, 113, 194, 0.8);
   transition: all .3s;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .slider__link:hover {
   color: #fff;
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.2);
+  background: #3071c2;
 }
 .slider__link:focus {
   color: #fff;
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.2);
+  background: #3071c2;
 }
 .slider__text {
   font-size: 20px;
@@ -295,7 +291,7 @@
 }
 @media (max-width: 640px) {
   .slider__text {
-    display: none;
+    font-size: 16px;
   }
 }
 .slider .fp-slidesNav.bottom {
@@ -423,9 +419,14 @@
   background: url(../img/1/heading-bg.gif) no-repeat 100%;
   background-size: contain;
 }
+.product__heading img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
 .product__heading ul {
   list-style: none;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 .product__heading ul li {
   position: relative;
@@ -445,25 +446,14 @@
   border: 1px solid #ddd;
   padding: 20px;
 }
+.product__inner .nav-tabs {
+  margin-bottom: 20px;
+}
 .product__inner h2 {
   margin-top: 0;
 }
-.product__inner ul {
-  list-style: none;
-  margin-bottom: 0;
-}
-.product__inner ul li {
-  position: relative;
-}
-.product__inner ul li::before {
-  content: '';
-  display: block;
-  width: 8px;
-  height: 2px;
-  background: #3071c2;
-  position: absolute;
-  left: -15px;
-  top: 50%;
+.product__inner img {
+  width: 100%;
 }
 .product__inner table {
   border-top: 2px solid #3071c2;
@@ -532,7 +522,7 @@
 }
 body {
   margin: 0;
-  background: #fffeff;
+  background: url(../img/bg-2.png);
   position: relative;
   font-family: 'Droid Sans', sans-serif;
 }

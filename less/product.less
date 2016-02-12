@@ -12,9 +12,14 @@
             background: url(../img/1/heading-bg.gif) no-repeat 100%;
             background-size: contain;
         }
+        img {
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
         ul {
             list-style: none;
-            margin-bottom: 0;
+            margin-bottom: 5px;
             li {
                 position: relative;
                 &::before {
@@ -34,26 +39,32 @@
         margin-top: 20px;
         border: 1px solid #ddd;
         padding: 20px;
+        .nav-tabs {
+            margin-bottom: 20px;
+        }
         h2 {
             margin-top: 0;
         }
-        ul {
-            list-style: none;
-            margin-bottom: 0;
-            li {
-                position: relative;
-                &::before {
-                    content: '';
-                    display: block;
-                    width: 8px;
-                    height: 2px;
-                    background: @blue;
-                    position: absolute;
-                    left: -15px;
-                    top: 50%;
-                }
-            }
+        img {
+            width: 100%;
         }
+//        ul {
+//            list-style: none;
+//            margin-bottom: 0;
+//            li {
+//                position: relative;
+//                &::before {
+//                    content: '';
+//                    display: block;
+//                    width: 8px;
+//                    height: 2px;
+//                    background: @blue;
+//                    position: absolute;
+//                    left: -15px;
+//                    top: 50%;
+//                }
+//            }
+//        }
         table {
             border-top: 2px solid @blue;
             th {
