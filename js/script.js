@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 	
     $('.scrollup').click(function(){
@@ -6,15 +8,17 @@ $(document).ready(function() {
     });
 	
     $('#fullpage').fullpage({
-        scrollBar:true,
+        //scrollBar:true,
         verticalCentered:false,
         fixedElements: '.page-nav',
         navigation:true,
         slidesNavigation:true,
 	    scrollOverflow: true,
         scrollingSpeed:500,
-        responsiveWidth:1280,
-        afterRender:function(){
+        //responsiveWidth:1280,
+		//responsiveHeight:600,
+		//fitToSection:false,
+        afterRender:function(){			
             slideTimeout = setInterval(function(){
                 $.fn.fullpage.moveSlideRight();
             }, 15000);
@@ -66,10 +70,18 @@ $(document).ready(function() {
             }
         ]
     });
+	
+	$('.fp-scrollable').slimScroll({
+	   size: '15px',
+	   height: '600px',
+	   alwaysVisible: false,
+	   touchScrollStep: 200
+	});
+	
 });
 
 {
-
+	
     var myCenter=new google.maps.LatLng(55.788945, 37.72926);
 
     function initialize(){
