@@ -123,12 +123,9 @@
   height: 400px;
   border: 1px solid #ddd;
 }
-.production .page-footer {
-  position: absolute;
-}
 .production__wrapper {
   background: url(../img/prod-bg.jpg) no-repeat 50% 100%;
-  background-size: contain;
+  background-size: cover;
   height: 100vh;
   position: relative;
 }
