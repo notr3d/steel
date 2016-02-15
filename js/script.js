@@ -71,13 +71,6 @@ $(document).ready(function() {
         ]
     });
 	
-	$('.fp-scrollable').slimScroll({
-	   size: '15px',
-	   height: '600px',
-	   alwaysVisible: false,
-	   touchScrollStep: 200
-	});
-	
 });
 
 {
