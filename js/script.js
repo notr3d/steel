@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 	
     $('#fullpage').fullpage({
-        scrollBar:false,
+        scrollBar:true,
         verticalCentered:false,
         fixedElements: '.page-nav',
         navigation:true,

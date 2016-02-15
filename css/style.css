@@ -123,10 +123,11 @@
   height: 400px;
   border: 1px solid #ddd;
 }
-.production__wrapper {
+.production {
   background: url(../img/prod-bg.jpg) no-repeat 50% 100%;
   background-size: cover;
-  height: 100vh;
+}
+.production__wrapper {
   position: relative;
 }
 .production__heading {
@@ -641,6 +642,11 @@ input {
   line-height: 16px;
 }
 @media (max-width: 640px) {
+  .footnote {
+    display: none;
+  }
+}
+@media screen and (max-height: 620px) {
   .footnote {
     display: none;
   }
