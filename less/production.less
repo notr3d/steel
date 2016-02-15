@@ -1,12 +1,15 @@
-.production {
-    
+.production {	
+	.page-footer {
+		position: absolute;
+	}
     &__wrapper {
         background: url(../img/prod-bg.jpg) no-repeat 50% 100%;
-        background-size: cover;
+        background-size: contain;
+		height: 100vh;
+		position: relative;
     }
     &__heading {
-        position: relative;
-        
+        position: relative;        
         padding-top: 60px;
         margin-bottom: 40px;
         &::before {

@@ -7,10 +7,9 @@ $(document).ready(function() {
         scrollBar:false,
         verticalCentered:false,
         fixedElements: '.page-nav',
-        anchors: ['slider', 'production', 'page-footer'],
         navigation:true,
         slidesNavigation:true,
-			  //scrollOverflow: true,
+	    scrollOverflow: true,
         scrollingSpeed:500,
         responsiveWidth:1280,
         afterRender:function(){
