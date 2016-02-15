@@ -95,7 +95,7 @@
   margin-bottom: 20px;
 }
 .contacts textarea {
-  resize: none;
+  resize: vertical;
 }
 .contacts__wrapper {
   margin-top: 80px;
