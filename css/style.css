@@ -131,6 +131,11 @@
   position: absolute;
   bottom: 0;
 }
+@media (max-width: 767px) {
+  .production .page-footer {
+    position: relative;
+  }
+}
 .production__wrapper {
   margin-bottom: 100px;
 }
