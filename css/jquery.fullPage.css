@@ -129,8 +129,8 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
 }
 #fp-nav.right {
-/*    right: 17px;*/
-    right: 70px;
+    right: 17px;
+/*    right: 70px;*/
 }
 #fp-nav.left {
     left: 17px;
