@@ -4,8 +4,12 @@
     bottom: 0;
 }
 .info {        
-    padding: 15px 0;
     background: #000;
+	
+	&__wrapper {
+		position: relative;		
+		padding: 15px 30px;
+	}
     &__item {
         margin-right: 10px;
         &:not(:last-of-type) {
@@ -25,32 +29,35 @@
                 color: rgba(127, 127, 127, 1);
             }    
         }
+		@media @mobile {
+			display: block;
+			text-align: center;
+			margin-right: 0;
+			padding: 2px 0;
+			font-size: 22px;
+			font-weight: bold;
+			&::after {
+				display: none;
+			}
+		}
     }
 }
 .copy {
     background: #e7e5e7;
     padding: 15px 0;
-    &__item {
-        margin-right: 10px;
-        &:not(:last-of-type) {
-            &::after {
-                content: '|';
-                position: relative;
-                margin-left: 10px;
-                color: rgba(127, 127, 127, 0.8);
-            }
-        }
-        a {                
-            color: rgba(34, 34, 34, 0.8);
-            transition: all .3s;
-        }
-        &:hover {
-            a {                
-                color: rgba(127, 127, 127, 1);
-            }    
-        }
-    }
-    &__text {
-        margin-top: 20px;
-    }
+	&__item {
+		font-size: 15px;
+		&--text {
+    	text-align: right; 
+			@media @mobile {
+				text-align: center;
+			}
+		}
+		@media @mobile {
+			text-align: center;
+			font-size: 20px;
+			margin-bottom: 15px;
+			font-weight: bold;
+		}
+	}    
 }

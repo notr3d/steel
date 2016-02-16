@@ -1,8 +1,16 @@
 .production {	
 	background: url(../img/prod-bg.jpg) no-repeat 50% 100%;
 	background-size: cover;
+	position: relative;
+	.page-footer {
+		position: absolute;
+		bottom: 0;
+		@media @mobile {
+			position: relative;
+		}
+	}
     &__wrapper {
-		position: relative;
+		
     }
     &__heading {
         position: relative;        

@@ -126,9 +126,16 @@
 .production {
   background: url(../img/prod-bg.jpg) no-repeat 50% 100%;
   background-size: cover;
-}
-.production__wrapper {
   position: relative;
+}
+.production .page-footer {
+  position: absolute;
+  bottom: 0;
+}
+@media (max-width: 767px) {
+  .production .page-footer {
+    position: relative;
+  }
 }
 .production__heading {
   position: relative;
@@ -512,8 +519,11 @@
   bottom: 0;
 }
 .info {
-  padding: 15px 0;
   background: #000;
+}
+.info__wrapper {
+  position: relative;
+  padding: 15px 30px;
 }
 .info__item {
   margin-right: 10px;
@@ -531,28 +541,41 @@
 .info__item:hover a {
   color: #7f7f7f;
 }
+@media (max-width: 767px) {
+  .info__item {
+    display: block;
+    text-align: center;
+    margin-right: 0;
+    padding: 2px 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .info__item::after {
+    display: none;
+  }
+}
 .copy {
   background: #e7e5e7;
   padding: 15px 0;
 }
 .copy__item {
-  margin-right: 10px;
+  font-size: 15px;
 }
-.copy__item:not(:last-of-type)::after {
-  content: '|';
-  position: relative;
-  margin-left: 10px;
-  color: rgba(127, 127, 127, 0.8);
+.copy__item--text {
+  text-align: right;
 }
-.copy__item a {
-  color: rgba(34, 34, 34, 0.8);
-  transition: all .3s;
+@media (max-width: 767px) {
+  .copy__item--text {
+    text-align: center;
+  }
 }
-.copy__item:hover a {
-  color: #7f7f7f;
-}
-.copy__text {
-  margin-top: 20px;
+@media (max-width: 767px) {
+  .copy__item {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
 }
 *::selection {
   background: #000;
@@ -571,13 +594,15 @@ input {
   padding: 0;
 }
 .scrollup {
-  float: right;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  right: 20px;
   width: 40px;
   height: 20px;
   border: none;
   background: none;
   outline: none;
-  position: relative;
   margin-left: 50px;
 }
 .scrollup::before {
@@ -599,7 +624,6 @@ input {
   border-color: #7f7f7f;
 }
 .footnote {
-  position: absolute;
   bottom: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
