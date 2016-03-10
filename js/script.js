@@ -89,7 +89,7 @@ $(document).ready(function() {
 
         var marker=new google.maps.Marker({
             position:myCenter,
-            icon:'img/map-icon.png',
+            icon:'/steel_wp/wp-content/themes/steel_wp/img/map-icon.png',
             size: new google.maps.Size(20, 32)
         });
 

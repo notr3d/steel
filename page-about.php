@@ -11,7 +11,7 @@
            <div class="container about__item">
               <div class="col-sm-6 about__left">            
                   <figure>                      
-                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/1.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/1.jpg" alt="" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -30,7 +30,7 @@
               </div>
               <div class="col-sm-6 about__right">
                   <figure>                      
-                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/2.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/2.jpg" alt="" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -41,7 +41,7 @@
            <div class="container about__item">
               <div class="col-sm-6 about__left">              
                   <figure>                      
-                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/3.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/3.jpg" alt="" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
