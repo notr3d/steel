@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>steel</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet"> 
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-    <header class="page-nav">
-        <div class="container page-nav__wrapper">
-            <nav class="container navbar">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#page-nav">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"></a>
-                    </div>
-                    <div id="page-nav" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html" class="page-nav__link">Company</a></li>
-                            <li><a href="about.html" class="page-nav__link">Overview</a></li> 
-							<li><a href="products.html" class="page-nav__link">Products</a></li>
-                            <li><a href="contacts.html" class="page-nav__link">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+	<?php get_header(); ?>
     <div class="container-fluid about">
         <div class="container about__wrapper">
            <div class="container about__heading">                        
@@ -46,7 +11,7 @@
            <div class="container about__item">
               <div class="col-sm-6 about__left">            
                   <figure>                      
-                      <img src="img/about/1.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/1.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -65,7 +30,7 @@
               </div>
               <div class="col-sm-6 about__right">
                   <figure>                      
-                      <img src="img/about/2.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/2.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -76,7 +41,7 @@
            <div class="container about__item">
               <div class="col-sm-6 about__left">              
                   <figure>                      
-                      <img src="img/about/3.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+                      <img src="/steel_wp/wp-content/themes/steel_wp/img/about/3.jpg" alt="" class="intense" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
                       <figcaption>
                           <h4>lorem</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -87,45 +52,7 @@
                   <h3 class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3> 
                   <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odit repudiandae expedita aut magni veniam eaque explicabo tempore autem, iusto sequi quas adipisci, doloribus minima commodi cum eveniet ex? Suscipit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odit repudiandae expedita aut magni veniam eaque explicabo tempore autem, iusto sequi quas adipisci, doloribus minima commodi cum eveniet ex? Suscipit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odit repudiandae expedita aut magni veniam eaque explicabo tempore autem, iusto sequi quas adipisci, doloribus minima commodi cum eveniet ex? Suscipit!</p>  
               </div>              
-           </div>
-           
+           </div>           
         </div>
     </div>        
-    <footer class="container-fluid page-footer">  
-        <div class="info">
-            <div class="container info__wrapper">
-			<button class="scrollup"></button>
-                <span class="info__item">
-                    <a href="index.html">Home</a>
-                </span>
-                <span class="info__item">
-                    <a href="about.html">Copmany</a>
-                </span>
-                <span class="info__item">
-                    <a href="products.html">Products</a>
-                </span>
-                <span class="info__item">
-                    <a href="contacts.html">Contacts</a>
-                </span>
-            </div>                        
-        </div>
-        <div class="copy">
-            <div class="container copy__wrapper">
-                <div class="col-sm-2 copy__item copy__item--phone">8 (555) 555-55-55</div>
-                <div class="col-sm-2 copy__item copy__item--link"><a href="#">mail@mail.com</a> </div>           
-                <div class="col-sm-8 copy__item copy__item--text">© Lorem, All rights reserved.</div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/intense.js"></script>
-    <script>
-        window.onload = function() {
-            var elements = document.querySelectorAll( '.intense' );
-            Intense( elements );
-        }
-    </script>
-    <script src="js/script.js"></script>
-</body>
-</html>
+    <?php get_footer(); ?>    

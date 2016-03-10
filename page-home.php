@@ -1,43 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>steel</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/jquery.fullPage.css"/>
-    <link rel="stylesheet" href="css/slick.css"/>
-    <link rel="stylesheet" href="css/slick-theme.css"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-    <header class="page-nav">
-        <div class="container page-nav__wrapper">
-            <nav class="container navbar">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#page-nav">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"></a>
-                    </div>
-                    <div id="page-nav" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html" class="page-nav__link">Company</a></li>
-                            <li><a href="about.html" class="page-nav__link">Overview</a></li> 
-							<li><a href="products.html" class="page-nav__link">Products</a></li>
-                            <li><a href="contacts.html" class="page-nav__link">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <div class="container-fluid index">
+       <?php get_header(); ?>
+       <div class="container-fluid index">
         <div id="fullpage"  class="main__wrapper">
             <div class="section slider">
 <!--
@@ -45,22 +7,22 @@
                     <div class="container">
                         <div class="footnote__wrapper">
                             <a href="" class="footnote__item">
-                                <img src="img/footnote/1.png" alt="" width="145" height="78">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/footnote/1.png" alt="" width="145" height="78">
                                 <h4>lorem</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </a>
                             <a href="" class="footnote__item">
-                                <img src="img/footnote/2.png" alt="" width="145" height="78">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/footnote/2.png" alt="" width="145" height="78">
                                 <h4>lorem</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </a>
                             <a href="" class="footnote__item">
-                                <img src="img/footnote/3.png" alt="" width="145" height="78">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/footnote/3.png" alt="" width="145" height="78">
                                 <h4>lorem</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </a>
                             <a href="" class="footnote__item">
-                                <img src="img/footnote/4.png" alt="" width="145" height="78">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/footnote/4.png" alt="" width="145" height="78">
                                 <h4>lorem</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </a>
@@ -121,8 +83,8 @@
                                     <h3>Hot-rolled Steel</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
                                 </div>
-                                <a href="1.html" class="production__link">
-                                    <img src="img/production/1.jpg" alt="" width="310" height="290">
+                                <a href="products" class="production__link">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/production/1.jpg" alt="" width="310" height="290">
                                 </a>
                             </div>
                         </div>
@@ -132,8 +94,8 @@
                                     <h3>Steel Plates</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
                                 </div>
-                                <a href="2.html" class="production__link">
-                                    <img src="img/production/2.jpg" alt="" width="310" height="290">
+                                <a href="products" class="production__link">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/production/2.jpg" alt="" width="310" height="290">
                                 </a>
                             </div>
                         </div>
@@ -143,8 +105,8 @@
                                     <h3>Wire Rod</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias quos veritatis eius fuga velit sequi dolorem iure, eveniet, quasi labore ex enim aut aperiam inventore eligendi incidunt consectetur sed.</p>
                                 </div>
-                                <a href="3.html" class="production__link">
-                                    <img src="img/production/3.jpg" alt="" width="310" height="290">
+                                <a href="products" class="production__link">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/production/3.jpg" alt="" width="310" height="290">
                                 </a>
                             </div>
                         </div>                        
@@ -156,91 +118,91 @@
                             </div>
                             <div class="partners__container">
                                 <div class="partners__item">
-                                    <img src="img/partners/1.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/1.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/2.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/2.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/3.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/3.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/4.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/4.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/5.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/5.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/6.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/6.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/7.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/7.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/8.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/8.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/9.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/9.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/10.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/10.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/11.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/11.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/12.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/12.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/13.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/13.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/14.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/14.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
                                 </div>
                                 <div class="partners__item">
-                                    <img src="img/partners/15.png" alt="">
+                                    <img src="/steel_wp/wp-content/themes/steel_wp/img/partners/15.png" alt="">
                                     <div class="partners__mask">
                                         <h3>lorem</h3>
                                     </div>
@@ -248,69 +210,8 @@
                             </div>
                         </div>
                     </div>
-<!--
-                    <footer class="container-fluid page-footer">  
-                        <div class="info">
-                            <div class="container info__wrapper">
-                                <span class="info__item">
-                                    <a href="index.html">Home</a>
-                                </span>
-                                <span class="info__item">
-                                    <a href="about.html">Copmany</a>
-                                </span>
-                                <span class="info__item">
-                                    <a href="1.html">Product</a>
-                                </span>
-                                <span class="info__item">
-                                    <a href="contacts.html">Contacts</a>
-                                </span>
-                                <span class="info__item">
-                                    <a href="#">mail@mail.com</a>    
-                                </span>
-                            </div>                        
-                        </div>
-                        <div class="copy">
-                            <div class="container copy__wrapper">
-                                <p class="copy__text">© Lorem, All rights reserved.</p>
-                            </div>
-                        </div>
-                    </footer>
--->
-                </div> 
-                <footer class="container-fluid page-footer">  
-					<div class="info">
-						<div class="container info__wrapper">
-<!--						<button class="scrollup"></button>-->
-							<span class="info__item">
-								<a href="index.html">Home</a>
-							</span>
-							<span class="info__item">
-								<a href="about.html">Copmany</a>
-							</span>
-							<span class="info__item">
-								<a href="products.html">Products</a>
-							</span>
-							<span class="info__item">
-								<a href="contacts.html">Contacts</a>
-							</span>
-						</div>                        
-					</div>
-					<div class="copy">
-						<div class="container copy__wrapper">
-							<div class="col-sm-2 copy__item copy__item--phone">8 (555) 555-55-55</div>
-							<div class="col-sm-2 copy__item copy__item--link"><a href="#">mail@mail.com</a> </div>           
-							<div class="col-sm-8 copy__item copy__item--text">© Lorem, All rights reserved.</div>
-						</div>
-					</div>
-				</footer>                                   
+                </div>                                   
             </div>
         </div>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.slimscroll.js"></script>
-    <script src="js/jquery.fullPage.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/script.js"></script>
-</body>
-</html>
+    <?php get_footer(); ?>

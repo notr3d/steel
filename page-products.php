@@ -1,45 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>steel</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-    <header class="page-nav">
-        <div class="container page-nav__wrapper">
-            <nav class="container navbar">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#page-nav">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"></a>
-                    </div>
-                    <div id="page-nav" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html" class="page-nav__link">Company</a></li>
-                            <li><a href="about.html" class="page-nav__link">Overview</a></li> 
-							<li><a href="products.html" class="page-nav__link">Products</a></li>
-                            <li><a href="contacts.html" class="page-nav__link">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+	<?php get_header(); ?>    
     <div class="container-fluid product">
         <div class="container product__wrapper">
              <div class="container product__heading">                        
                   <h1 class="col-xs-12">Transmission towers</h1>  
                   <div class="col-sm-4">
-                     <img src="img/1/main.jpg" alt="">
+                     <img src="/steel_wp/wp-content/themes/steel_wp/img/1/main.jpg" alt="">
                   </div>
                   <div class="col-sm-8">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas autem corporis labore earum accusamus nesciunt, eius mollitia eveniet! Dolor at harum odit sit, perferendis obcaecati dolorum ratione accusamus cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias maxime dolorem, saepe nihil, veritatis voluptates quod dolor dignissimos, officia commodi sequi cum qui sunt, voluptatem asperiores! Assumenda aliquid illum, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae eos dolor, fuga numquam dolorem nulla qui non, facere laborum, quasi optio debitis. Ipsam possimus, hic reprehenderit laboriosam amet fugit similique.</p>
@@ -70,7 +35,7 @@
                         </ul>
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="11">
-                                <img src="img/1/11.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/11.jpg" alt="">
                                 <div class="table-responsive">
                                     <table class="table">
                                     <thead>
@@ -231,7 +196,7 @@
                                 </div>
                             </div>
                             <div role="tabpanel" class="fade tab-pane" id="12">
-                                <img src="img/1/12.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/12.jpg" alt="">
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead>
@@ -341,7 +306,7 @@
                         </ul>
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="21">
-                                <img src="img/1/21.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/21.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
 									<thead>
@@ -532,7 +497,7 @@
                                 </div>    
                             </div>
                             <div role="tabpanel" class="fade tab-pane" id="22">
-                                <img src="img/1/22.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/22.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
 									<thead>
@@ -703,7 +668,7 @@
                                 </div> 
                             </div>
                             <div role="tabpanel" class="fade tab-pane" id="23">
-                                <img src="img/1/23.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/23.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -782,7 +747,7 @@
                         </ul>
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="31">
-                                <img src="img/1/31.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/31.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -1003,7 +968,7 @@
                                 </div>
                             </div>
                             <div role="tabpanel" class="fade tab-pane" id="32">
-                                <img src="img/1/32.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/32.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -1242,7 +1207,7 @@
                         </ul>
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="41">
-                                <img src="img/1/41.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/41.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -1423,7 +1388,7 @@
                                 </div>
                             </div>
                             <div role="tabpanel" class="fade tab-pane" id="42">
-                                <img src="img/1/42.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/42.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -1572,7 +1537,7 @@
                         </ul>
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="51">
-                                <img src="img/1/51.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/51.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -1653,7 +1618,7 @@
                                 </div>
                             </div>
                             <div role="tabpanel" class="fade tab-pane" id="52">
-                                <img src="img/1/52.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/52.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -1952,7 +1917,7 @@
                         </ul>
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="61">
-                                <img src="img/1/61.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/61.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -2003,7 +1968,7 @@
                                 </div>
                             </div>
                             <div role="tabpanel" class="fade tab-pane" id="62">
-                                <img src="img/1/62.jpg" alt="">
+                                <img src="/steel_wp/wp-content/themes/steel_wp/img/1/62.jpg" alt="">
                                 <div class="table-responsive">
                                 <table class="table">
                                 <thead>
@@ -2196,7 +2161,7 @@
                         </div> 
                     </div>
                     <div role="tabpanel" class="tab-pane fade product__inner" id="7">
-                        <img src="img/1/7.jpg" alt="">
+                        <img src="/steel_wp/wp-content/themes/steel_wp/img/1/7.jpg" alt="">
                         <div class="table-responsive">
                         <table class="table">
                         <thead>
@@ -2289,35 +2254,5 @@
                 </div>
             </div> 
         </div>
-    </div>        
-    <footer class="container-fluid page-footer">  
-        <div class="info">
-            <div class="container info__wrapper">
-			<button class="scrollup"></button>
-                <span class="info__item">
-                    <a href="index.html">Home</a>
-                </span>
-                <span class="info__item">
-                    <a href="about.html">Copmany</a>
-                </span>
-                <span class="info__item">
-                    <a href="products.html">Products</a>
-                </span>
-                <span class="info__item">
-                    <a href="contacts.html">Contacts</a>
-                </span>
-            </div>                        
-        </div>
-        <div class="copy">
-            <div class="container copy__wrapper">
-                <div class="col-sm-2 copy__item copy__item--phone">8 (555) 555-55-55</div>
-                <div class="col-sm-2 copy__item copy__item--link"><a href="#">mail@mail.com</a> </div>           
-                <div class="col-sm-8 copy__item copy__item--text">© Lorem, All rights reserved.</div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
-</html>
+    </div>       
+    <?php get_footer(); ?>
