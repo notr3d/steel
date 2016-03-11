@@ -2,8 +2,7 @@
     <div class="container-fluid contacts">
         <div class="container contacts__wrapper">
            <div class="container contacts__heading">                        
-                <h1>Contact us</h1>
-                <p class="col-sm-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas autem corporis labore earum accusamus nesciunt, eius mollitia eveniet! Dolor at harum odit sit, perferendis obcaecati dolorum ratione accusamus cupiditate.</p>      
+                <h1>Contact us</h1>      
            </div>           
            <div class="col-sm-6 contacts__left">                
                 <form class="contacts__form">

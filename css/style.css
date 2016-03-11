@@ -61,11 +61,11 @@
   transition: all .3s;
   width: 100%;
   color: #fff;
-  padding: 5px 20px 10px;
+  padding: 25px 20px;
 }
 .about__item figure figcaption h4 {
-  padding: 5px 0;
-  margin: 10px 0 5px;
+  padding: 15px 0 5px;
+  margin: 0 0 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   position: relative;
 }
@@ -499,6 +499,7 @@
   margin-top: 20px;
   border: 1px solid #ddd;
   padding: 20px;
+  background: #fff;
 }
 .product__inner .nav-tabs {
   margin-bottom: 20px;
@@ -508,6 +509,7 @@
 }
 .product__inner img {
   width: 100%;
+  border: 1px solid #eee;
 }
 .product__inner table {
   margin: 0;
@@ -523,10 +525,11 @@
   padding: 5px;
 }
 .product__inner table th {
-  border: 2px solid #c0c1c1 !important;
+  border: 1px solid #c0c1c1 !important;
   background: #505558;
   color: #ffc01c;
   text-align: center;
+  border: none;
 }
 .product__inner table td {
   width: 12.5%;
