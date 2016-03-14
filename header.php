@@ -23,7 +23,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"></a>
+                        <a class="navbar-brand" href="home"></a>
                     </div>
                     <div id="page-nav" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">

@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 	
     $('.scrollup').click(function(){
@@ -73,10 +71,8 @@ $(document).ready(function() {
 	
 });
 
-{
-	
+{	
     var myCenter=new google.maps.LatLng(55.788945, 37.72926);
-
     function initialize(){
         var mapProp = {
             center:myCenter,
@@ -84,18 +80,32 @@ $(document).ready(function() {
             zoom:16,
             mapTypeId:google.maps.MapTypeId.ROADMAP
         };
-
         var map=new google.maps.Map(document.getElementById("map"), mapProp);
-
         var marker=new google.maps.Marker({
             position:myCenter,
             icon:'/steel_wp/wp-content/themes/steel_wp/img/map-icon.png',
             size: new google.maps.Size(20, 32)
         });
-
         marker.setMap(map);
     }
-
     google.maps.event.addDomListener(window, 'load', initialize);
+}
 
+{
+	function init() {
+		window.addEventListener('scroll', function(e){
+			var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+				shrinkOn = 100,
+				header = $('.page-nav__wrapper');
+			if (distanceY > shrinkOn) {
+				$(header).addClass('page-nav__wrapper--small');
+				
+			} else {
+				if ($(header).hasClass('page-nav__wrapper--small')) {
+					$(header).removeClass('page-nav__wrapper--small');
+				}
+			}
+		});
+	}
+	window.onload = init();
 }
