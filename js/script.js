@@ -72,7 +72,7 @@ $(document).ready(function() {
 });
 
 {	
-    var myCenter=new google.maps.LatLng(55.788945, 37.72926);
+    var myCenter=new google.maps.LatLng(54.212438, 37.646569);
     function initialize(){
         var mapProp = {
             center:myCenter,
@@ -83,7 +83,7 @@ $(document).ready(function() {
         var map=new google.maps.Map(document.getElementById("map"), mapProp);
         var marker=new google.maps.Marker({
             position:myCenter,
-            icon:'/steel_wp/wp-content/themes/steel_wp/img/map-icon.png',
+            icon:'/wp-content/themes/steel_wp/img/map-icon.png',
             size: new google.maps.Size(20, 32)
         });
         marker.setMap(map);

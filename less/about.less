@@ -85,4 +85,23 @@
             }
         }
     }
+    ul {
+        list-style: none;
+        margin-bottom: 5px;
+        li {
+            position: relative;
+            font-size: 16px;
+            margin-bottom: 5px;
+            &::before {
+                content: '';
+                display: block;
+                width: 8px;
+                height: 2px;
+                background: @blue;
+                position: absolute;
+                left: -15px;
+                top: 50%;
+            }
+        }
+    }
 }

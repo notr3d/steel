@@ -90,12 +90,32 @@
   top: 0;
   bottom: 0;
 }
+.about ul {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.about ul li {
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.about ul li::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 2px;
+  background: #2474d0;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+}
 .contacts {
   margin-bottom: 20px;
 }
 .contacts textarea {
   resize: vertical;
   border-radius: 0;
+  height: 100px;
 }
 .contacts__wrapper {
   margin-top: 80px;
@@ -355,11 +375,14 @@
 .page-nav__wrapper--small {
   padding: 5px 0;
 }
+.page-nav .navbar-nav {
+  padding-top: 5px;
+}
 .page-nav .navbar-brand {
-  width: 70px;
+  width: 100px;
   background: url(../img/page-logo.png) no-repeat center;
   background-size: contain;
-  margin: 0 45px 0 15px;
+  margin: 0 30px 0 15px;
 }
 .page-nav .navbar-toggle {
   border-radius: 0;
@@ -389,8 +412,9 @@
 }
 .page-nav__link {
   color: #000;
+  font-size: 20px;
   font-weight: bold;
-  padding: 15px 0 !important;
+  padding: 10px 0 !important;
   margin: 0 30px;
   background: none !important;
   transition: all .3s;
@@ -427,6 +451,7 @@
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   transition: all .3s;
+  display: none;
 }
 .partners__mask h3 {
   text-transform: uppercase;
@@ -615,7 +640,7 @@
   }
 }
 *::selection {
-  background: #000;
+  background: #2474d0;
   color: #fff;
 }
 body {

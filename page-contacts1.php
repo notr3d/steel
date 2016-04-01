@@ -26,17 +26,18 @@
            <div class="col-sm-6 contacts__right">
                <div class="row">
                    <address class="col-sm-6">
-                        Zamil Steel Holding Co. Ltd.</br>
-                        1st Industrial City,</br>
-                        PO Box 877, Dammam 31421</br>
-                        <strong>Saudi Arabia</strong>
+                        The trade production</br>
+                        and export profile enterprise</br>
+                        <strong>OOO "Metallica"</strong></br>
+<!--                        <a href="mailto:sale@mtllk.ru">sale@mtllk.ru</a>-->
                     </address>
                     <address class="col-sm-6">
-                        Phone +966 (13) 847 1840</br>
-                        Fax +966 (13) 847 1291</br>
-                        <a href="mailto:mail@sendmail.com">mail@sendmail.com</a>
+                        Russian Federation, Tula,</br>
+                   			Venevskoye roadway, 4, bld. 5a, 300004</br>
+                        Phone +7 (800) 333-70-44
                     </address>    
                </div>
+<!--
                <div class="row">
                    <address class="col-sm-6">
                         Zamil Steel Holding Co. Ltd.</br>
@@ -50,6 +51,7 @@
                         <a href="mailto:mail@sendmail.com">mail@sendmail.com</a>
                     </address>    
                </div>                                          
+-->
             </div>
         </div>
     </div>        
