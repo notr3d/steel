@@ -265,10 +265,21 @@
   left: 50%;
   margin-left: -40px;
 }
+@media (max-width: 767px) {
+  .production__mask h3 {
+    width: 275px;
+  }
+}
 .production__mask p {
   width: 310px;
   padding: 0 30px;
   text-align: justify;
+}
+@media (max-width: 767px) {
+  .production__mask p {
+    padding: 0 15px;
+    width: 275px;
+  }
 }
 @media (max-width: 767px) {
   .production__mask {
@@ -355,8 +366,8 @@
 }
 @media (max-width: 767px) {
   .slider__text {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
 .slider .fp-slidesNav.bottom {
