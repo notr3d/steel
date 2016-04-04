@@ -380,6 +380,11 @@
 .page-nav .navbar-nav {
   padding-top: 5px;
 }
+@media (min-width: 768px) {
+  .page-nav .navbar-nav {
+    margin-left: 220px;
+  }
+}
 .page-nav .navbar-brand {
   width: 100px;
   background: url(../img/page-logo.png) no-repeat center;
@@ -425,6 +430,18 @@
   color: #2474d0;
   box-shadow: 0 5px 0 0 #2474d0;
   background: none !important;
+}
+@media (min-width: 768px) {
+  .page-nav .navbar-header {
+    position: relative;
+  }
+  .page-nav .navbar-header .navbar-brand {
+    position: absolute;
+    width: 215px;
+    height: 90px;
+    border: 1px solid #c8cbd1;
+    box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.2);
+  }
 }
 .partners__heading {
   margin: 0;

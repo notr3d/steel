@@ -20,7 +20,10 @@
     }
     .navbar-nav {
 //        margin-right: 50px;
-			padding-top: 5px;
+		padding-top: 5px;
+		@media @desktop {
+			margin-left: 220px;
+		}
     }
     .navbar-brand {
         width: 100px;
@@ -71,4 +74,16 @@
             background: none !important;
         }
     }
+	.navbar-header {
+		@media @desktop {
+			position: relative;
+			.navbar-brand {
+				position: absolute;
+				width: 215px;
+				height: 90px;
+				border: 1px solid @grey;
+				box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.2);
+			}
+		}
+	}
 }
