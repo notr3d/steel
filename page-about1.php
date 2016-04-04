@@ -13,14 +13,14 @@
                   <figure>                      
                       <img src="/wp-content/themes/steel_wp/img/about/1.jpg" alt="" data-title="lorem" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
                       <figcaption>
-                          <h4>Metallica Co., Ltd</h4>
+                          <h4>OOO "METALLICA"</h4>
                           <p></p>
                       </figcaption>
                   </figure>    
               </div>
               <div class="col-sm-6 about__right">
-                  <h3 class="">About Metallica Co., Ltd</h3> 
-                  <p class="">Metallica Co., Ltd. is specialized in the production and design, of steel power transmission towers and undertakes the design, manufacturing and construction of all kinds of steel structure.</p>
+                  <h3 class="">About OOO "METALLICA"</h3> 
+                  <p class="">OOO "METALLICA". is specialized in the production and design, of steel power transmission towers and undertakes the design, manufacturing and construction of all kinds of steel structure.</p>
 <p>Our technical team has rich theoretical knowledge and practical experience. We have contracted to build all kinds of steel structure towers over a thousand in number in recent years with annual production capacity over 60 thousand tons and superior engineering quality.</p>  
               </div>              
            </div>
@@ -55,7 +55,7 @@
               </div>              
            </div> 
             <div class="container about__item">
-                <h3>Why choose Metallica Co.?</h3>
+                <h3>Why choose OOO "METALLICA"?</h3>
                 <ul>
                     <li>Global presence and local service</li>
                     <li>Reliable after sale service</li>

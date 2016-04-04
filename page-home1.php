@@ -20,7 +20,7 @@
                                 <img src="/wp-content/themes/steel_wp/img/footnote/3.png" alt="" width="145" height="78">
                                 <h4>lorem</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </a>
+                     production       </a>
                             <a href="" class="footnote__item">
                                 <img src="/wp-content/themes/steel_wp/img/footnote/4.png" alt="" width="145" height="78">
                                 <h4>lorem</h4>
@@ -76,7 +76,7 @@
                     </div>
                 </div>                                               
             </div>
-            <div class="section production">
+            <div class="production">
                 <div class="container-fluid production__wrapper">
                    <div class="production__heading container">
                         <h2>Innovative Technology</h2>

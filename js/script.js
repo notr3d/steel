@@ -6,16 +6,18 @@ $(document).ready(function() {
     });
 	
     $('#fullpage').fullpage({
-        //scrollBar:true,
+		//autoScrolling:false,
+        scrollBar:true,
         verticalCentered:false,
         fixedElements: '.page-nav',
         navigation:true,
         slidesNavigation:true,
-	    scrollOverflow: true,
+	    //scrollOverflow: true, //slimscroll
         scrollingSpeed:500,
-        //responsiveWidth:1280,
-		//responsiveHeight:600,
+        responsiveWidth:975,
+		//responsiveHeight:1480,
 		//fitToSection:false,
+		normalScrollElements: '.production',
         afterRender:function(){			
             slideTimeout = setInterval(function(){
                 $.fn.fullpage.moveSlideRight();
@@ -23,6 +25,10 @@ $(document).ready(function() {
         },
     });
     
+//	$('.fp-scrollable').slimScroll({
+//	   touchScrollStep: 0
+//	});
+	
     $('.partners__container').slick({
         autoplay:true,
         autoplaySpeed:10000,

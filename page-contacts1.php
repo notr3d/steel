@@ -25,16 +25,18 @@
            </div> 
            <div class="col-sm-6 contacts__right">
                <div class="row">
-                   <address class="col-sm-6">
-                        The trade production</br>
-                        and export profile enterprise</br>
-                        <strong>OOO "Metallica"</strong></br>
-<!--                        <a href="mailto:sale@mtllk.ru">sale@mtllk.ru</a>-->
-                    </address>
-                    <address class="col-sm-6">
-                        Russian Federation, Tula,</br>
-                   			Venevskoye roadway, 4, bld. 5a, 300004</br>
-                        Phone +7 (800) 333-70-44
+                   <address class="">
+                        The trade production and export profile enterprise
+                        <strong>OOO "METALLICA"</strong><br>
+                        <br>
+                        <strong>Address: </strong>Russian Federation, Tula,
+                   			Venevskoye roadway, 4, bld. 5a, 300004<br>
+                        <br>
+                        <strong>Phone: </strong>+7 (495) 789-36-86<br>
+                        English speaking manager ext: 309, 801<br>
+                        <br>
+                        <strong>Email: </strong>
+                        <a href="mailto:sale@mtllk.ru">sale@mtllk.ru</a>
                     </address>    
                </div>
 <!--

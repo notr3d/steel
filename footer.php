@@ -18,9 +18,9 @@
         </div>
         <div class="copy">
             <div class="container copy__wrapper">
-                <div class="col-sm-2 copy__item copy__item--phone">8 (555) 555-55-55</div>
+                <div class="col-sm-2 copy__item copy__item--phone">+7 (495) 789-36-86</div>
                 <a href="mailto:sale@mtllk.ru" class="col-sm-2 copy__item copy__item--email email">sale@mtllk.ru</a>           
-                <div class="col-sm-8 copy__item copy__item--copy">© "METALLICA", All rights reserved.</div>
+                <div class="col-sm-8 copy__item copy__item--copy">© OOO "METALLICA", All rights reserved.</div>
             </div>
         </div>
     </footer>
