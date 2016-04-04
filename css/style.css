@@ -209,6 +209,11 @@
   font-size: 20px;
   margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+  .production__heading {
+    padding-top: 0;
+  }
+}
 .production__container {
   margin-bottom: 0;
 }
@@ -264,6 +269,11 @@
   width: 310px;
   padding: 0 30px;
   text-align: justify;
+}
+@media (max-width: 767px) {
+  .production__mask {
+    transform: translateY(0);
+  }
 }
 .slider {
   position: relative;
@@ -345,7 +355,8 @@
 }
 @media (max-width: 767px) {
   .slider__text {
-    display: none;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 .slider .fp-slidesNav.bottom {
