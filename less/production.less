@@ -47,6 +47,7 @@
         margin-bottom: 0;
     }
     &__item {
+		padding: 0;
         position: relative;
         margin-bottom: 20px;
         overflow: hidden;
@@ -63,14 +64,21 @@
         }
     }
     &__inner {
-       width: 310px;
+       width: 100%;
         margin: 0 auto;
        overflow: hidden;
+		img {
+			width: 100%;
+		}
+		@media @desktop {
+			margin: 0 15px;
+		}
     }
     &__mask {
         position: absolute;
         color: #fff;
         height: 100%;
+		width: 100%;
         background: rgba(0, 0, 0, 0.5);
         pointer-events: none;
         transform: translateY(200px);
@@ -78,7 +86,6 @@
         padding: 0;
         z-index: 1;
         h3 {
-            width: 310px;
             padding: 15px 0 30px;           
             text-align: center;
             position: relative;
@@ -95,16 +102,16 @@
                 margin-left: -40px;
             }
 			@media @mobile {
-				width: 275px;
+				
 			}
         }
         p {
-            width: 310px;
+            
             padding: 0 30px; 
             text-align: justify;
 			@media @mobile {
 				padding: 0 15px;
-				width: 275px;
+				
 			}
         }
 		@media @mobile {
