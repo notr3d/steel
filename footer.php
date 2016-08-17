@@ -25,17 +25,40 @@
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <?php if (is_page($page = "contacts")): ?>
+    	<script src="http://maps.googleapis.com/maps/api/js"></script>
+    <?php endif; ?> 
+    <?php if (is_page($page = "home")): ?>
+    	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.fullPage.js"></script>
+    	<script>
+		 $('#fullpage').fullpage({
+			//autoScrolling:false,
+			scrollBar:true,
+			verticalCentered:false,
+			fixedElements: '.page-nav',
+			navigation:true,
+			slidesNavigation:true,
+			//scrollOverflow: true, //slimscroll
+			scrollingSpeed:500,
+			responsiveWidth:975,
+			//responsiveHeight:1480,
+			//fitToSection:false,
+			normalScrollElements: '.production',
+			afterRender:function(){			
+				slideTimeout = setInterval(function(){
+					$.fn.fullpage.moveSlideRight();
+				}, 15000);
+			},
+		});
+		</script>
+    <?php endif; ?>        
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/intense.js"></script>
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.slimscroll.js"></script>
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.fullPage.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.slimscroll.js"></script>    
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/slick.js"></script>
     <script>
-        window.onload = function() {
-            var elements = document.querySelectorAll( '.intense' );
-            Intense( elements );
-        }
+		var elements = document.querySelectorAll( '.intense' );
+		Intense( elements );
     </script>
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/script.js"></script>
     <?php wp_footer(); ?>

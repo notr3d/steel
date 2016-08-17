@@ -5,7 +5,7 @@ $(document).ready(function() {
         return false;
     });
 	
-    $('#fullpage').fullpage({
+   /* $('#fullpage').fullpage({
 		//autoScrolling:false,
         scrollBar:true,
         verticalCentered:false,
@@ -23,7 +23,7 @@ $(document).ready(function() {
                 $.fn.fullpage.moveSlideRight();
             }, 15000);
         },
-    });
+    });*/
     
 //	$('.fp-scrollable').slimScroll({
 //	   touchScrollStep: 0

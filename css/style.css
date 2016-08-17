@@ -837,3 +837,14 @@ input {
 .index + .page-footer {
   display: none;
 }
+.showroom {
+  text-align: center;
+  margin-top: 30px;
+}
+.showroom img {
+  max-width: 300px;
+  border: 1px solid #ddd;
+}
+.showroom img:hover {
+  cursor: zoom-in;
+}
